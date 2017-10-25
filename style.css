@@ -1,4 +1,11 @@
+body{
+	background-color: black;
+	height: 500px;
+}
+
+
 #background-image {
+	margin: 0 auto;
     background-image: url("forrest.jpg");
     width: 1500px;
     height: 590px;
@@ -10,6 +17,7 @@
 }
 
 #instruments {
+	margin: 0 auto;
 	width: 1500px;
 	height: 590px;
 	position: relative;
