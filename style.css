@@ -1,13 +1,13 @@
 body{
 	background-color: black;
-	height: 500px;
+	height: 300px;
 }
 
 
 #background-image {
 	margin: 0 auto;
     background-image: url("forrest.jpg");
-    width: 1500px;
+    width: 1900px;
     height: 590px;
   	background-repeat: no-repeat;
   	background-position: center;
@@ -17,7 +17,9 @@ body{
 }
 
 #instruments {
-	margin: 0 auto;
+	display: inline;
+	background-color: blue;
+	margin-left: 220px;
 	width: 1500px;
 	height: 590px;
 	position: relative;
@@ -87,4 +89,21 @@ body{
 	transform: rotate(290deg);
 	
 }
+#harmonica {
+	position: absolute;
+	top: -100px;
+	left: 1200px;
+	height: 117px;
+}
 
+h1{
+	position: absolute;
+	width: 1000px;
+	left:320px;
+	
+	font-size: 60px;
+	font-family: 'Nixie One', cursive;
+	color: #fff;
+	text-shadow: 0 0 30px #4b63dd, 0 0 20px #4b63dd, 0 0 30px #4b63dd, 0 0 20px #4b63dd, 0 0 30px #4b63dd, 0 0 40px #4b63dd;
+
+		}
